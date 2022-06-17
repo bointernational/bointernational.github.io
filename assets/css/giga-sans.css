@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Giga Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Giga Sans'), url('https://fonts.cdnfonts.com/s/35992/Locomotype  GigaSansExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Giga Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Giga Sans'), url('https://fonts.cdnfonts.com/s/35992/Locomotype  GigaSansLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Giga Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Giga Sans'), url('https://fonts.cdnfonts.com/s/35992/Locomotype  GigaSansMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Giga Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Giga Sans'), url('https://fonts.cdnfonts.com/s/35992/Locomotype  GigaSansSemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Giga Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Giga Sans'), url('https://fonts.cdnfonts.com/s/35992/Locomotype  GigaSansBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Giga Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Giga Sans'), url('https://fonts.cdnfonts.com/s/35992/Locomotype  GigaSansExtraBold.woff') format('woff');
+}
+
+
