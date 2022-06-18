@@ -766,7 +766,6 @@ span.icon-ar {
 
 
 
-
 @media(min-width:768px){
     .flex-box{
         align-items: flex-start;
@@ -1318,6 +1317,184 @@ button.lan-slide-arrow.prev-arrow {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+}
+.choos-prod-img {
+    background-color: #D9DADA;
+    text-align: center;
+    padding: 39px;
+    border-radius: 30px;
+}
+.choos-prod-img img {
+    margin: 0 auto;
+    max-width: 150px;
+}
+.choos-prod-rt h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.choos-prod-rt p {
+    font-size: 18px;
+    max-width: 512px;
+}
+.flex-pack {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.formulation-pack .consis-title-sec p {
+    font-size: 24px;
+}
+.step {
+    text-align: center;
+}
+.step h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.step h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.step span {
+    width: 30px;
+    height: 30px;
+    border: 6px solid #858875;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.step {
+    position: relative;
+}
+.step span:before {
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #858875;
+    position: absolute;
+    top: 14px;
+    z-index: 0;
+    left: 50%;
+    margin-left: 15px;
+} 
+.step:last-child span:before{
+    display: none;
+}
+
+.is-active span {
+    border-color: #95cf47!important;
+    z-index: 2;
+}
+.lan-bot-foo p {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lan-bot-foo p img {
+    max-width: 22px;
+    margin-right: 5px;
+}
+.step-box {
+    margin-bottom: 40px;
+}
+.consist-slide2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+@media(max-width:767px){
+
+.row.flex-center {
+    flex-direction: column;
+}
+    .landing-header .row {
+       display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .landing-header {
+    padding-top: 5px;
+    margin-bottom: -145px;
+}
+    .landing-banner {
+    padding-top: 110px;
+}
+    .lan-call-btn {font-size: 15px;}
+    .landing-logo img {
+    max-width: 72px;
+}
+    .landing-banner {
+    background-size: 1005px;
+    background-position: top;
+}
+    input.form-control {
+    height: 38px;
+}
+    .form-group {
+    margin-bottom: 10px;
+}
+    .banner-rt-contact {padding: 35px 10px;}
+    .consist-slide2 {
+    justify-content: center;
+}
+    .consist-slide2 .consist-box {
+    width: 33.3%;
+}
+    .consist-slide2 .consist-box img {
+    padding: 0px;
+}
+    .consist-slide2 .counting {
+    font-size: 25px;
+}
+    .consist-slide2 .consis-content h3 {
+    font-size: 14px;
+}
+    .consis-content h3 {
+    padding: 0px 0px;
+}
+    
+ .consist-slide2 .consis-content p {
+    line-height: 18px;
+}   
+    .lan-counting {
+    padding: 0px 10px;
+}
+    .banner-left {
+        text-align: center;}
+    .banner-left h2 {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+    .banner-left h3 {
+        font-size: 16px;}
+    .landing-banner {
+        background-size: 727px;}
+    .consist-box img {
+    max-width: 80px;
+}
+    .consist-slide2 .count-line {
+    margin-top: -56px;
+}
+    .product-rang-lt {
+    text-align: center;
+    border-left: none;
+    padding: 25px 10px;
+    background-color: #ffffffad;
+    margin: 0px 36px;
+    margin-top: -79px;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 0px;
+}
 }
 /*landing banner css End*/
 
