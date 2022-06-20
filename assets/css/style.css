@@ -998,7 +998,7 @@ span.icon-ar {
     padding: 0px;
 }
     .img-center {
-    padding: 35px;
+    padding: 0px 35px;
 }
     .check-product p {
         font-size: 15px;}
@@ -1076,7 +1076,7 @@ span.icon-ar {
     .product-box-title h2 {
         text-align: center;}
     .list-box-title {
-    padding-left: 15%;
+    padding-left: 18px;
 }
     .privat-liv-slide .slick-dots {
     position: absolute;
@@ -1174,7 +1174,6 @@ span.icon-ar {
     color: #000;
     text-decoration: none;
     font-weight: 600;
-    padding-left: 15px;
 }
 .lan-product-box-title h2 {
     font-size: 20px;
@@ -1235,6 +1234,11 @@ span.icon-ar {
 }
 button.lan-slide-arrow.next-arrow {
     right: -44px;
+    top: 38%;
+    position: absolute;
+}
+.slider-single button.lan-slide-arrow.next-arrow {
+    right: 40px;
     top: 38%;
     position: absolute;
 }
@@ -1406,12 +1410,115 @@ button.lan-slide-arrow.prev-arrow {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.lan-slide-arrow .fa-angle-double-right {
+    color: #a2db03;
+    font-size: 62px;
+}
+button.lan-slide-arrow.next-arrow {
+    background-color: transparent;
+}
+.list-box-title li{
+    position: relative
+}
+.list-box-title li:before{
+    position: absolute;
+    content: "→";
+    width: 15px;
+    height: 15px;
+    left: -17px;
+    top: -2px;
+    color: #9bca3b;
+    font-size: 18px;
+}
+.desktop{display: block;}
+.mobile{ display: none;}
+.lan-call-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
 
 
 
 
+
+
+@media(min-width:768px){
+    .req-fixed{display: none;}
+}
 @media(max-width:767px){
+    html {
+  scroll-behavior: smooth;
+}
 
+    .private-label-mob-content h2 {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+}
+    .certificat-box ul li {
+        font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 6px;
+    
+    }
+    .private-label-mob-content h2 span {
+        font-size: 68px;
+    margin-right: 6px;
+    line-height: 38px;
+    color: #686868;
+
+}
+    .private-label-mob-content.text-cus-right h2 {
+    justify-content: flex-end;
+}
+    .mobchose-pro {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+    
+    .formulation-pack .consis-title-sec h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+    .formulation-pack .consis-title-sec p {
+    font-size: 18px;
+}
+    .desktop{display: none; }
+    .mobile{display: block;}
+    .product-rang .col-xs-6:nth-child(odd) .lan-product-box-content{
+         border-right: 1px solid #adadad;       
+        
+    }
+    .product-rang .view-all-btn {
+    display: none;
+}
+    .section-space {
+    padding: 25px 0px;
+}
+    .product-rang .col-xs-6{
+    margin-bottom: 20px;
+    }
+    .lan-product-box-title {
+    margin-bottom: 0px;
+}
+.count-line {
+   
+    padding-bottom: 16px;
+}
+    .req-submit-btn .button {
+    background-color: #9bca3b;
+    color: #fff;
+    border: 2px solid #9bca3b;
+    width: 100%;
+    padding: 6px;
+    line-height: 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+    .consis-content p {
+    display: none;
+}
 .row.flex-center {
     flex-direction: column;
 }
@@ -1482,19 +1589,110 @@ button.lan-slide-arrow.prev-arrow {
     max-width: 80px;
 }
     .consist-slide2 .count-line {
-    margin-top: -56px;
+    margin-top: -56px;    min-height: 74px;
 }
     .product-rang-lt {
     text-align: center;
     border-left: none;
     padding: 25px 10px;
     background-color: #ffffffad;
-    margin: 0px 36px;
+    margin: 0px 15px;
     margin-top: -79px;
     position: relative;
     border-radius: 15px 15px 0px 0px;
     padding-top: 0px;
 }
+    .mobile-img-center img {
+    margin: 0 auto;
+}
+    .custom-menufa {
+    padding: 50px 0px;
+    background-position: center top;
+}
+    .rich-out h3 {
+        font-size: 20px;}
+    .rich-out p {
+    font-size: 15px;margin-bottom: 0px;
+}
+    .rich-out {
+    margin-bottom: 18px;
+}
+    .lan-footer-content {
+    padding: 5px 10px;
+    min-height: 52px;
+    margin-bottom: 10px;
+    border: navajowhite;
+}
+    .lan-footer-content h2 {
+        font-size: 20px;}
+    .lan-footer-content p {
+    margin-bottom: 0px;
+}
+    .lan-client-logo {
+    padding: 8px 18px;
+}
+    .certificate-slider .lan-client-logo {
+    width: 33.33%;
+}
+    .certificate-slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .client-slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+    .client-slider .client-logo {
+    width: 33.33%;
+    padding: 0px 12px;
+}
+    .footer-bottom {
+    padding: 8px 0px;
+}
+    .req-fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #97cc45;
+    color: #222021;
+    padding: 10px 0px;
+    font-size: 24px;
+    font-weight: 700;
+        display: none;
+}
+    .banner-rt-contact {
+    background-color: #fff;
+    padding: 35px 30px;
+    border-radius: 30px;
+    border: 1px solid #9bca3b;
+    border-style: double;
+    box-shadow: 3px 3px 12px #00000030;
+}
+    .req-fixed:focus, .req-fixed::hover {
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+    .banner-left {
+    text-align: center;
+    background-color: #ffffff78;
+    padding: 10px 10px;
+    margin: 37px 0px;
+    border-radius: 16px;
+}
+    .req-fixed:hover {
+    text-decoration: none;
+    color: #333;
+}
+    .show-req-fixed{
+        display: block;
+    }
+    .lan-footer footer {padding: 25px 0px;}
+
+
 }
 /*landing banner css End*/
 
